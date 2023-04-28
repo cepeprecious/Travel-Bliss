@@ -15,15 +15,15 @@ li {
     list-style: none;
 }
 
-.color-primary {
+.background-primary {
     background-color: #1f81ac;
 }
 
-.color-secondary {
+.background-secondary {
     background-color: #fbab34 !important;
 }
 
-.color-tertiary {
+.background-tertiary {
     background-color: #fbc674;
 }
 
@@ -35,32 +35,55 @@ li {
     color: #81858e;
 }
 
-.top-nav {
+/*--------------------------------------------------------------
+# Top Bar
+--------------------------------------------------------------*/
+#topbar {
+  height: 40px;
+  font-size: 14px;
+  color: #fff;
+  padding: 0;
+}
+
+#topbar .contact-info i {
+  font-style: normal;
   color: #fff;
 }
 
-.top-nav p {
-  display: inline-block;
-  margin-right: 10px;
+#topbar .contact-info i a,
+#topbar .contact-info i span {
+  padding-left: 5px;
+  color: #fff;
+}
+
+#topbar .contact-info i a {
+  line-height: 0;
+}
+
+#topbar .contact-info i a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#topbar .social-links a {
+  color: rgba(12, 5, 5, 0.7);
+  line-height: 0;
   margin-left: 20px;
 }
 
-.top-nav span,
-.top-nav i {
-  vertical-align: middle;
+#topbar .social-links a:hover {
+  color: white;
 }
 
-.social-icons a {
-  width: 28px;
-  height: 28px;
-  display: inline-flex;
-  color: #fff;
-  text-decoration: none;
-  align-items: center;
-  justify-content: center;
-  border-radius: 100px;
-  
+.vertical-line {
+    border-left: 1px solid white; /* Change the color and thickness of the line as needed */
+    height: 20px; /* Change the height of the line as needed */
 }
+
+
+
+
+
 .service {
   padding: 50px;
   background-color: #fff;
