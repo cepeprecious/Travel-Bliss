@@ -50,40 +50,27 @@ li {
   color: #fff;
 }
 
-#topbar .contact-info i a,
-#topbar .contact-info i span {
+#topbar .contact-info i p {
   padding-left: 5px;
   color: #fff;
-}
-
-#topbar .contact-info i a {
   line-height: 0;
 }
 
-#topbar .contact-info i a:hover {
-  color: #fff;
-  text-decoration: underline;
-}
-
 #topbar .social-links a {
-  color: rgba(12, 5, 5, 0.7);
   line-height: 0;
   margin-left: 20px;
 }
 
-#topbar .social-links a:hover {
-  color: white;
-}
-
 .vertical-line {
-    border-left: 1px solid white; /* Change the color and thickness of the line as needed */
-    height: 20px; /* Change the height of the line as needed */
+    border-left: 1px solid white;
+    height: 20px;
 }
 
 
 
-
-
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
 .service {
   padding: 50px;
   background-color: #fff;
