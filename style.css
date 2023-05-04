@@ -1,0 +1,166 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    font-family: 'Rubik';
+    font-family: 'Nunito Sans';
+}
+  
+a {
+    text-decoration: none;
+}
+  
+li {
+    list-style: none;
+}
+
+.background-primary {
+    background-color: #1f81ac;
+}
+
+.background-secondary {
+    background-color: #fbab34 !important;
+}
+
+.background-tertiary {
+    background-color: #fbc674;
+}
+
+.gray-section-bg {
+    background-color: #f3f3f3;
+}
+
+.color-paragraph-text {
+    color: #81858e;
+}
+
+/*--------------------------------------------------------------
+# Top Bar
+--------------------------------------------------------------*/
+#topbar {
+  height: 40px;
+  font-size: 14px;
+  color: #fff;
+  padding: 0;
+}
+
+#topbar .contact-info i {
+  font-style: normal;
+  color: #fff;
+}
+
+#topbar .contact-info i p {
+  padding-left: 5px;
+  color: #fff;
+  line-height: 0;
+}
+
+#topbar .social-links a {
+  line-height: 0;
+  margin-left: 20px;
+}
+
+.vertical-line {
+    border-left: 1px solid white;
+    height: 20px;
+}
+
+
+
+/* Services */
+.service {
+  padding: 50px;
+  background-color: #fff;
+  box-shadow: var(--shadow);
+}
+
+.service h5 {
+  margin-top: 24px;
+  margin-bottom: 14px;
+  text-align: left;
+}
+.service h6 {
+  margin-top: 24px;
+  margin-bottom: 14px;
+  text-align: left;
+}
+
+.service img {
+  width: 100%;
+  height: auto;
+}
+
+/* News & Updates */
+
+.intro {
+  font-family: Nunito Sans;
+  color: #1f81ac;
+  text-align: center;
+  padding-top: 5rem;
+  margin-top: 5rem;
+
+}
+
+.intro h1 {
+  font-weight: bolder;
+  font-size: 36px;
+}
+
+.intro img {
+  display: block;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.intro p {
+  color: #81858e;
+  font-size: 14px;
+  padding-top: 4rem;
+  text-align: center;
+}
+
+.intro p.mx-auto {
+  margin: auto;
+  padding-top: 5rem;
+}
+
+.news {
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  max-width: 400px;
+}
+
+.news h5 {
+  color: #1f81ac;
+  font-size: 24px;
+  padding-top: 1.5rem;
+  font-family: 'Nunito Sans';
+
+}
+
+.news h6 {
+  color: #fbab34;
+  font-size: 14px;
+  padding-top: 1rem;
+}
+
+.news p {
+  color: #81858e;
+  font-size: 14px;
+  padding-top: 1rem;
+}
+
+.news a {
+  background-color: #1f81ac;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 0;
+  padding: 0.5rem 1.5rem;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
