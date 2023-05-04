@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +6,7 @@
   
 body {
     font-family: 'Rubik';
+    font-family: 'Nunito Sans';
 }
   
 a {
@@ -68,9 +70,7 @@ li {
 
 
 
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
+/* Services */
 .service {
   padding: 50px;
   background-color: #fff;
@@ -91,5 +91,76 @@ li {
 .service img {
   width: 100%;
   height: auto;
+}
+
+/* News & Updates */
+
+.intro {
+  font-family: Nunito Sans;
+  color: #1f81ac;
+  text-align: center;
+  padding-top: 5rem;
+  margin-top: 5rem;
+
+}
+
+.intro h1 {
+  font-weight: bolder;
+  font-size: 36px;
+}
+
+.intro img {
+  display: block;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.intro p {
+  color: #81858e;
+  font-size: 14px;
+  padding-top: 4rem;
+  text-align: center;
+}
+
+.intro p.mx-auto {
+  margin: auto;
+  padding-top: 5rem;
+}
+
+.news {
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  max-width: 400px;
+}
+
+.news h5 {
+  color: #1f81ac;
+  font-size: 24px;
+  padding-top: 1.5rem;
+  font-family: 'Nunito Sans';
+
+}
+
+.news h6 {
+  color: #fbab34;
+  font-size: 14px;
+  padding-top: 1rem;
+}
+
+.news p {
+  color: #81858e;
+  font-size: 14px;
+  padding-top: 1rem;
+}
+
+.news a {
+  background-color: #1f81ac;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 0;
+  padding: 0.5rem 1.5rem;
+  margin-top: 1rem;
+  display: inline-block;
 }
 
