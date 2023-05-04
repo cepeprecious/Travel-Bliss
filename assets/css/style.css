@@ -71,26 +71,28 @@ li {
 
 
 /* Services */
+/* Services */
 .service {
-  padding: 50px;
-  background-color: #fff;
-  box-shadow: var(--shadow);
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: var(--shadow);
 }
-
+  
 .service h5 {
-  margin-top: 24px;
-  margin-bottom: 14px;
-  text-align: left;
-}
-.service h6 {
-  margin-top: 24px;
-  margin-bottom: 14px;
-  text-align: left;
+    margin-top: 24px;
+    margin-bottom: 14px;
+    text-align: left;
 }
 
+.service h6 {
+    margin-top: 24px;
+    margin-bottom: 14px;
+    text-align: left;
+}
+  
 .service img {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 /* News & Updates */
