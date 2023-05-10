@@ -5,8 +5,11 @@
 }
   
 body {
-    font-family: 'Rubik';
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.font-rubik {
+    font-family: 'Rubik', sans-serif;
 }
   
 a {
@@ -15,6 +18,10 @@ a {
   
 li {
     list-style: none;
+}
+
+.text-justify {
+    text-align: justify;
 }
 
 .background-primary {
