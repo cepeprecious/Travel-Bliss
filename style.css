@@ -8,7 +8,7 @@ body {
     /* font-family: 'Rubik'; */
     font-family: 'Nunito Sans';
 }
-  
+
 a {
     text-decoration: none;
 }
@@ -163,4 +163,46 @@ li {
   margin-top: 1rem;
   display: inline-block;
 }
+
+/* Tours */
+/* Section Packages Start
+.main-txt h1{
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 600;
+  text-shadow: 0px 1px 1px black;
+}
+
+.tours .place{
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+}
+.tours .place img{
+  border-radius: 5px;
+}
+.tours .place .place{
+  background: transparent;
+}
+.tours .place .place h3{
+  font-size: 25px;
+  font-weight: 600;
+}
+.tours .place .place p{
+  font-size: 15px;
+}
+.checked{
+  color: #ffa500;
+}
+.tours .place .place h6{
+  font-size: 20px;
+}
+.tours .place .place a{
+  padding: 10px;
+  text-decoration: none;
+  background: #ffa500;
+  color: white;
+  border-radius: 5px;
+} */
+/* Section Packages End */
 
